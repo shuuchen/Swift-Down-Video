@@ -7,4 +7,4 @@
 </p>
 Download videos from Youtube, rejected by App Store
 * Swift 2.0+, Xcode 6.4+
-* Using core data, file system, network, multi-thread, auto-layout, google api etc.
+* Using core data, file system, network, multi-thread, av foundation, auto-layout, google api etc.
