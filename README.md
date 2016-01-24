@@ -1,12 +1,10 @@
-# table_view_template
 <p align="center">
-  <img src="https://github.com/shuuchen/table_view_template/blob/master/table_view_sample_m.gif" />
+  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/1.jpg" />
+  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/2.jpg" />
+  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/3.jpg" />
+  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/4.jpg" />
+  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/5.jpg" />
 </p>
-A complete table view template written in Swift
-* Using auto-layout and size-class to deal with multiple devices
-* Embedded in a tab view
-* A table template with sections, items and indices
- * It can directly be used in application development where a table is necessary
- * The user interaction includes:
-   1) Detail navigation
-   2) Item or section deletion 
+Download videos from Youtube, rejected by App Store
+* Swift 2.0+, Xcode 6.4+
+* Using core data, file system, network, multi-thread, auto-layout, google api etc.
