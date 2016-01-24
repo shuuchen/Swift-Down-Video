@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/1.jpg" />
+  <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/1.jpg" width="20%" />
   <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/2.jpg" />
   <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/3.jpg" />
   <img src="https://github.com/shuuchen/Swift-Down-Video/blob/master/screenshots/4.jpg" />
