@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010ED19DADA6DECA4B851A1D038FDF81 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D100860BE6D445EC7377C6BAB8D5A29 /* UNIRest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		072C2294CCB45C4B58F0FE4E131D44BA /* UNIHTTPBinaryResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7843FEAFDB0C4DB80B8FB7F7092DD0A4 /* UNIHTTPBinaryResponse.h */; };
+		0E37D94E4C9613CFDBA273F2F45F0CD2 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9279D91575CBFC7AE6F67F3D3FB35577 /* UNIHTTPStringResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1810766310A31050F32B7E9B1BD82BB7 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC5EDBED1AC61B50F4D1DD3F0DC5B3 /* Pods-dummy.m */; };
+		1C55589843DF212E9B8EBC9FE0533AA4 /* UNIRest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDBEF4FFFC062D3636468F934FF990C /* UNIRest.h */; };
+		1E77276323BFDDB90AFF0D17AFF67EC6 /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C82F37C68BC21A27C5A76E94235B918 /* UNIHTTPResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22DE5496302BCC4B9C4172FBB420219D /* Unirest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D4B025BBEB5E21D314B886DC9D36E /* Unirest-dummy.m */; };
+		26020DBB4A3F7C8DE6E8E4D182F60AC0 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35636E5095E3FA51D2ECF6F946823FE4 /* YTPlayerView.m */; };
+		264F946CD6A4725BCCED96B4C5BF5C50 /* UNIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF69B921F4056E268F6F3343A220FE2 /* UNIHTTPRequest.h */; };
+		27032924B104D7754B509C508E3E174A /* UNIBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 236F36D7D7B823587EDB74C85179BEDF /* UNIBodyRequest.h */; };
+		28E3EA80F9164D3066B7491FFAF99670 /* UNIHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FEC9D3BE39DC559E7D5B97F64084FB /* UNIHTTPResponse.h */; };
+		2DF962107F8528F2CDFD6C385F15C9C8 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = ED21E9F3C8A4FEBD9045B6AF2EB88A8D /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2EE7A03D4CBFE3B05140F27EB1A7ED2D /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A33EE186DFEC3FAE047CBBD5445BAB /* youtube-ios-player-helper-dummy.m */; };
+		315A291332920EA14DF84F022DA199D1 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6284FEE90594AA162ED83AB4D936C1 /* UNIHTTPBinaryResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F3CBBA151E4AA2931D4592EB875688A /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5A63DD86DFA57723ACBE3D92F5E026 /* UNISimpleRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47109BB35D6A98277B24A331DD7DAFAE /* UNIHTTPRequestWithBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 202453E0D002897C1AB867EFC687DB83 /* UNIHTTPRequestWithBody.h */; };
+		502B96183A28485C95495048F5DFC41C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA818B5D5BEE2D59CB5727F68168D677 /* Foundation.framework */; };
+		519974540D2978F6A6D92C8384D7F2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA818B5D5BEE2D59CB5727F68168D677 /* Foundation.framework */; };
+		5503AE9A554B61F0AEE8A99159AC74E8 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E218E65017ACB9A424780180A8775018 /* UNIBodyRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		745D446654F9324082CFA7575EE4CB72 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9ED118388BF6EA97D762B5A2C6397C /* UNIBaseRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7788E8E76A9329F16A0AB231091D24DB /* UNISimpleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1CFD08B754716677DA4F8BA15D7CAB /* UNISimpleRequest.h */; };
+		840257599BBCFC65A1B15DF5DD5A9A2E /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = F86DF8D2CD8A4B00EE2A03167AD7898A /* UNIHTTPRequestWithBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		842F4447939EA9F0F881262C0164EE73 /* UNIUrlConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE29A62BDD044C572B5987DF96DC6EC /* UNIUrlConnection.h */; };
+		898EB63ECDE381C2666DD416D85BAA93 /* UNIHTTPStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8473B0961D1897419E0034AD62F24669 /* UNIHTTPStringResponse.h */; };
+		A7FF4C664762BE82B2448E2CBAB2E927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA818B5D5BEE2D59CB5727F68168D677 /* Foundation.framework */; };
+		ACE7EA60B4E7140C3F552C393C37C519 /* UNIHTTPJsonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDF4EF7C445F2BE23CA45B0C3A83B3D /* UNIHTTPJsonResponse.h */; };
+		B94D5626AD32C47FADA306EF76D92989 /* UNIBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6850F17A2305581FD0125582C9669C /* UNIBaseRequest.h */; };
+		BF4BED37A13ABDBA19A4301DE4AF6295 /* UNIHTTPClientHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCC10CEFAEAD7E8A1524F2C33D9E993 /* UNIHTTPClientHelper.h */; };
+		C923D4903C4D1F5FD16EBA15F1256A50 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4192D49DE37267631BAFA8F9BFF3DA /* YTPlayerView.h */; };
+		D5CF9C45C1A10F96DCE10962A687C9C7 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 767A32FAD1F0E96BF3EA61F464BEA026 /* Base64.h */; };
+		DE0CA5A70907DF9FAC15D424975EEE60 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 33897F937F8D274D40DB1C12A8E998E3 /* UNIUrlConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1DD6BA4030EDFB55E31060314F9F370 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AAC10BB06BF2C9B709993FBB2E0617 /* UNIHTTPJsonResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E261BD8350C595376C3235E451F60D69 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED7CABDCC383AD2B54D2E41541D9EC1 /* UNIJsonNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7B519DD6DA9B971A800CB0DB44FBFB5 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 494265CFD514AA019162356B4A677F42 /* UNIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA97A723B51FD1928C7FC372E79E2091 /* UNIJsonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D01C9A3E4965E1440F2B61BA5C6A112 /* UNIJsonNode.h */; };
+		F0E95546658AB153FDFE6D7AB467C712 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA59343AF516049FC8D127EAB723CB /* Assets */; };
+		FF622C60444355B84B9BBECED0FFC1E4 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A5866DECB42EF05D99FE9F94B48603 /* UNIHTTPClientHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9A34A45905DF33D718A97F88203D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1599E2467E3C0FE576A8C4624C54A6;
+			remoteInfo = "youtube-ios-player-helper-Assets";
+		};
+		535DECB5E4570D58701900E70B99B82E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAB901AAEE3A5D69521ED60A3C24D3E;
+			remoteInfo = Unirest;
+		};
+		5EF4ADBDDF6436C84BFFE477A835D60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27654F123DF5D97DBCED7A01C0D13382;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A30F45C5AFFAA10A3AD9009632C58C /* libyoutube-ios-player-helper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libyoutube-ios-player-helper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FA59343AF516049FC8D127EAB723CB /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		1292A94F5A779D6AA6ADD541480EA346 /* Unirest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unirest.xcconfig; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A6850F17A2305581FD0125582C9669C /* UNIBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = Unirest/HttpRequest/UNIBaseRequest.h; sourceTree = "<group>"; };
+		1BDBEF4FFFC062D3636468F934FF990C /* UNIRest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = Unirest/UNIRest.h; sourceTree = "<group>"; };
+		202453E0D002897C1AB867EFC687DB83 /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = Unirest/UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		236F36D7D7B823587EDB74C85179BEDF /* UNIBodyRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = Unirest/HttpRequest/UNIBodyRequest.h; sourceTree = "<group>"; };
+		29AAC10BB06BF2C9B709993FBB2E0617 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = Unirest/HttpResponse/UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		2A002882957B8BCD59F352C5AF6565B5 /* Assets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		33897F937F8D274D40DB1C12A8E998E3 /* UNIUrlConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = Unirest/UNIUrlConnection.m; sourceTree = "<group>"; };
+		35636E5095E3FA51D2ECF6F946823FE4 /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		3BDF4EF7C445F2BE23CA45B0C3A83B3D /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = Unirest/HttpResponse/UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		3D100860BE6D445EC7377C6BAB8D5A29 /* UNIRest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = Unirest/UNIRest.m; sourceTree = "<group>"; };
+		3ED7CABDCC383AD2B54D2E41541D9EC1 /* UNIJsonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = Unirest/HttpResponse/UNIJsonNode.m; sourceTree = "<group>"; };
+		4224903C4235784E73F02AD1DC897936 /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
+		4305D9531ACE5F0FFC6D26F58BA199FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		494265CFD514AA019162356B4A677F42 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = Unirest/UNIHTTPRequest.m; sourceTree = "<group>"; };
+		5B5A63DD86DFA57723ACBE3D92F5E026 /* UNISimpleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = Unirest/HttpRequest/UNISimpleRequest.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6BD5FDF50901068FC5707CB368FDB8FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3FA713F243C90F070E4924F2284DB6 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		6C82F37C68BC21A27C5A76E94235B918 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = Unirest/HttpResponse/UNIHTTPResponse.m; sourceTree = "<group>"; };
+		71BD369A2082854C65D8093C54E577A9 /* Unirest-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Unirest-Private.xcconfig"; sourceTree = "<group>"; };
+		74F3D5E7D2371E0DA53B29CD3BBD8537 /* Unirest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unirest-prefix.pch"; sourceTree = "<group>"; };
+		767A32FAD1F0E96BF3EA61F464BEA026 /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Unirest/Base64.h; sourceTree = "<group>"; };
+		7843FEAFDB0C4DB80B8FB7F7092DD0A4 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		7A6284FEE90594AA162ED83AB4D936C1 /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		7D01C9A3E4965E1440F2B61BA5C6A112 /* UNIJsonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = Unirest/HttpResponse/UNIJsonNode.h; sourceTree = "<group>"; };
+		81FEC9D3BE39DC559E7D5B97F64084FB /* UNIHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = Unirest/HttpResponse/UNIHTTPResponse.h; sourceTree = "<group>"; };
+		8473B0961D1897419E0034AD62F24669 /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = Unirest/HttpResponse/UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		8CE29A62BDD044C572B5987DF96DC6EC /* UNIUrlConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = Unirest/UNIUrlConnection.h; sourceTree = "<group>"; };
+		8F4192D49DE37267631BAFA8F9BFF3DA /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		90A5866DECB42EF05D99FE9F94B48603 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = Unirest/UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		9279D91575CBFC7AE6F67F3D3FB35577 /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = Unirest/HttpResponse/UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		9A3D4B025BBEB5E21D314B886DC9D36E /* Unirest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unirest-dummy.m"; sourceTree = "<group>"; };
+		9FCC5EDBED1AC61B50F4D1DD3F0DC5B3 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		AB1CFD08B754716677DA4F8BA15D7CAB /* UNISimpleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = Unirest/HttpRequest/UNISimpleRequest.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBF69B921F4056E268F6F3343A220FE2 /* UNIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = Unirest/UNIHTTPRequest.h; sourceTree = "<group>"; };
+		BDB97A859514998832158BAB37599362 /* youtube-ios-player-helper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper-Private.xcconfig"; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		D461FEC535ABD5CE627C057FD08B8147 /* libUnirest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnirest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCC10CEFAEAD7E8A1524F2C33D9E993 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = Unirest/UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		DF9ED118388BF6EA97D762B5A2C6397C /* UNIBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = Unirest/HttpRequest/UNIBaseRequest.m; sourceTree = "<group>"; };
+		E218E65017ACB9A424780180A8775018 /* UNIBodyRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = Unirest/HttpRequest/UNIBodyRequest.m; sourceTree = "<group>"; };
+		EA818B5D5BEE2D59CB5727F68168D677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED21E9F3C8A4FEBD9045B6AF2EB88A8D /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Unirest/Base64.m; sourceTree = "<group>"; };
+		EDDEFC000DE245CC60D0D3B68BE13425 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		F86DF8D2CD8A4B00EE2A03167AD7898A /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = Unirest/UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		F9A33EE186DFEC3FAE047CBBD5445BAB /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200440E4DD0D4C5DC0F0D0CC9A58356C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FF4C664762BE82B2448E2CBAB2E927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4725CC206271330A051A45E693653D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519974540D2978F6A6D92C8384D7F2B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE14E2DCABB2859E62E9E8F366AFED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502B96183A28485C95495048F5DFC41C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B873DCE1FAA06D5C98535711AF470060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3747588A0536C823FFB2A7CA75CD63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05FA59343AF516049FC8D127EAB723CB /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA818B5D5BEE2D59CB5727F68168D677 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EFA49464A9F5A9DF87AF0CF6C280B6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3721BEBEF0FDE96DA0942AB8A403C7B /* Unirest */,
+				CBC5CAF2F2585CFA93408AF45EAE619D /* youtube-ios-player-helper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6EFA49464A9F5A9DF87AF0CF6C280B6A /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		908F2F52638FC56A82A7C1251B811CEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4224903C4235784E73F02AD1DC897936 /* youtube-ios-player-helper.xcconfig */,
+				BDB97A859514998832158BAB37599362 /* youtube-ios-player-helper-Private.xcconfig */,
+				F9A33EE186DFEC3FAE047CBBD5445BAB /* youtube-ios-player-helper-dummy.m */,
+				6C3FA713F243C90F070E4924F2284DB6 /* youtube-ios-player-helper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				9FCC5EDBED1AC61B50F4D1DD3F0DC5B3 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				EDDEFC000DE245CC60D0D3B68BE13425 /* Pods.debug.xcconfig */,
+				4305D9531ACE5F0FFC6D26F58BA199FD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBC5CAF2F2585CFA93408AF45EAE619D /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				8F4192D49DE37267631BAFA8F9BFF3DA /* YTPlayerView.h */,
+				35636E5095E3FA51D2ECF6F946823FE4 /* YTPlayerView.m */,
+				1C3747588A0536C823FFB2A7CA75CD63 /* Resources */,
+				908F2F52638FC56A82A7C1251B811CEC /* Support Files */,
+			);
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A002882957B8BCD59F352C5AF6565B5 /* Assets.bundle */,
+				6BD5FDF50901068FC5707CB368FDB8FA /* libPods.a */,
+				D461FEC535ABD5CE627C057FD08B8147 /* libUnirest.a */,
+				03A30F45C5AFFAA10A3AD9009632C58C /* libyoutube-ios-player-helper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3721BEBEF0FDE96DA0942AB8A403C7B /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				767A32FAD1F0E96BF3EA61F464BEA026 /* Base64.h */,
+				ED21E9F3C8A4FEBD9045B6AF2EB88A8D /* Base64.m */,
+				1A6850F17A2305581FD0125582C9669C /* UNIBaseRequest.h */,
+				DF9ED118388BF6EA97D762B5A2C6397C /* UNIBaseRequest.m */,
+				236F36D7D7B823587EDB74C85179BEDF /* UNIBodyRequest.h */,
+				E218E65017ACB9A424780180A8775018 /* UNIBodyRequest.m */,
+				7843FEAFDB0C4DB80B8FB7F7092DD0A4 /* UNIHTTPBinaryResponse.h */,
+				7A6284FEE90594AA162ED83AB4D936C1 /* UNIHTTPBinaryResponse.m */,
+				DBCC10CEFAEAD7E8A1524F2C33D9E993 /* UNIHTTPClientHelper.h */,
+				90A5866DECB42EF05D99FE9F94B48603 /* UNIHTTPClientHelper.m */,
+				3BDF4EF7C445F2BE23CA45B0C3A83B3D /* UNIHTTPJsonResponse.h */,
+				29AAC10BB06BF2C9B709993FBB2E0617 /* UNIHTTPJsonResponse.m */,
+				BBF69B921F4056E268F6F3343A220FE2 /* UNIHTTPRequest.h */,
+				494265CFD514AA019162356B4A677F42 /* UNIHTTPRequest.m */,
+				202453E0D002897C1AB867EFC687DB83 /* UNIHTTPRequestWithBody.h */,
+				F86DF8D2CD8A4B00EE2A03167AD7898A /* UNIHTTPRequestWithBody.m */,
+				81FEC9D3BE39DC559E7D5B97F64084FB /* UNIHTTPResponse.h */,
+				6C82F37C68BC21A27C5A76E94235B918 /* UNIHTTPResponse.m */,
+				8473B0961D1897419E0034AD62F24669 /* UNIHTTPStringResponse.h */,
+				9279D91575CBFC7AE6F67F3D3FB35577 /* UNIHTTPStringResponse.m */,
+				7D01C9A3E4965E1440F2B61BA5C6A112 /* UNIJsonNode.h */,
+				3ED7CABDCC383AD2B54D2E41541D9EC1 /* UNIJsonNode.m */,
+				1BDBEF4FFFC062D3636468F934FF990C /* UNIRest.h */,
+				3D100860BE6D445EC7377C6BAB8D5A29 /* UNIRest.m */,
+				AB1CFD08B754716677DA4F8BA15D7CAB /* UNISimpleRequest.h */,
+				5B5A63DD86DFA57723ACBE3D92F5E026 /* UNISimpleRequest.m */,
+				8CE29A62BDD044C572B5987DF96DC6EC /* UNIUrlConnection.h */,
+				33897F937F8D274D40DB1C12A8E998E3 /* UNIUrlConnection.m */,
+				EA36C20DA8696F8650446AD7BBC6A2BE /* Support Files */,
+			);
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+		EA36C20DA8696F8650446AD7BBC6A2BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1292A94F5A779D6AA6ADD541480EA346 /* Unirest.xcconfig */,
+				71BD369A2082854C65D8093C54E577A9 /* Unirest-Private.xcconfig */,
+				9A3D4B025BBEB5E21D314B886DC9D36E /* Unirest-dummy.m */,
+				74F3D5E7D2371E0DA53B29CD3BBD8537 /* Unirest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Unirest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A193110928594A634B36D8F19D3F59EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CF9C45C1A10F96DCE10962A687C9C7 /* Base64.h in Headers */,
+				B94D5626AD32C47FADA306EF76D92989 /* UNIBaseRequest.h in Headers */,
+				27032924B104D7754B509C508E3E174A /* UNIBodyRequest.h in Headers */,
+				072C2294CCB45C4B58F0FE4E131D44BA /* UNIHTTPBinaryResponse.h in Headers */,
+				BF4BED37A13ABDBA19A4301DE4AF6295 /* UNIHTTPClientHelper.h in Headers */,
+				ACE7EA60B4E7140C3F552C393C37C519 /* UNIHTTPJsonResponse.h in Headers */,
+				264F946CD6A4725BCCED96B4C5BF5C50 /* UNIHTTPRequest.h in Headers */,
+				47109BB35D6A98277B24A331DD7DAFAE /* UNIHTTPRequestWithBody.h in Headers */,
+				28E3EA80F9164D3066B7491FFAF99670 /* UNIHTTPResponse.h in Headers */,
+				898EB63ECDE381C2666DD416D85BAA93 /* UNIHTTPStringResponse.h in Headers */,
+				EA97A723B51FD1928C7FC372E79E2091 /* UNIJsonNode.h in Headers */,
+				1C55589843DF212E9B8EBC9FE0533AA4 /* UNIRest.h in Headers */,
+				7788E8E76A9329F16A0AB231091D24DB /* UNISimpleRequest.h in Headers */,
+				842F4447939EA9F0F881262C0164EE73 /* UNIUrlConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB701944D7B718AFD0E6B20F036D57E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C923D4903C4D1F5FD16EBA15F1256A50 /* YTPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20C612D59CF56C1E6ABB26C1BC32E1FD /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B09A50185969852DC3126D85213AE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				AADD3CE58BF03CE38B359D7E5C61A421 /* Sources */,
+				7FE14E2DCABB2859E62E9E8F366AFED8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBE2D9AE71A9B5CC0BFC0787108E5A9 /* PBXTargetDependency */,
+				C37069A36FEDEB952336294DD031D7DF /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 6BD5FDF50901068FC5707CB368FDB8FA /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27654F123DF5D97DBCED7A01C0D13382 /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1231335D4D27ACF8EF2F094B9A9742C /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				BC2871E00F07C85B1D8070DEDE5D1A5E /* Sources */,
+				200440E4DD0D4C5DC0F0D0CC9A58356C /* Frameworks */,
+				DB701944D7B718AFD0E6B20F036D57E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250FF203AC7F115CE513A2F31D6E0ED4 /* PBXTargetDependency */,
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = 03A30F45C5AFFAA10A3AD9009632C58C /* libyoutube-ios-player-helper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A1599E2467E3C0FE576A8C4624C54A6 /* youtube-ios-player-helper-Assets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3147E424D787689D3B77B4A9330AA8 /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper-Assets" */;
+			buildPhases = (
+				048BD153FDC7352984B43401DD8DF0EF /* Sources */,
+				B873DCE1FAA06D5C98535711AF470060 /* Frameworks */,
+				5B8CD78F638E9059A153FB5B85987DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper-Assets";
+			productName = "youtube-ios-player-helper-Assets";
+			productReference = 2A002882957B8BCD59F352C5AF6565B5 /* Assets.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EFAB901AAEE3A5D69521ED60A3C24D3E /* Unirest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37525DC2EDB5B76B684D85899031D13C /* Build configuration list for PBXNativeTarget "Unirest" */;
+			buildPhases = (
+				81827959F98A4AB786AF5D5D040FC1D6 /* Sources */,
+				4725CC206271330A051A45E693653D9A /* Frameworks */,
+				A193110928594A634B36D8F19D3F59EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unirest;
+			productName = Unirest;
+			productReference = D461FEC535ABD5CE627C057FD08B8147 /* libUnirest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C612D59CF56C1E6ABB26C1BC32E1FD /* Pods */,
+				EFAB901AAEE3A5D69521ED60A3C24D3E /* Unirest */,
+				27654F123DF5D97DBCED7A01C0D13382 /* youtube-ios-player-helper */,
+				8A1599E2467E3C0FE576A8C4624C54A6 /* youtube-ios-player-helper-Assets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8CD78F638E9059A153FB5B85987DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E95546658AB153FDFE6D7AB467C712 /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048BD153FDC7352984B43401DD8DF0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81827959F98A4AB786AF5D5D040FC1D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF962107F8528F2CDFD6C385F15C9C8 /* Base64.m in Sources */,
+				745D446654F9324082CFA7575EE4CB72 /* UNIBaseRequest.m in Sources */,
+				5503AE9A554B61F0AEE8A99159AC74E8 /* UNIBodyRequest.m in Sources */,
+				315A291332920EA14DF84F022DA199D1 /* UNIHTTPBinaryResponse.m in Sources */,
+				FF622C60444355B84B9BBECED0FFC1E4 /* UNIHTTPClientHelper.m in Sources */,
+				E1DD6BA4030EDFB55E31060314F9F370 /* UNIHTTPJsonResponse.m in Sources */,
+				E7B519DD6DA9B971A800CB0DB44FBFB5 /* UNIHTTPRequest.m in Sources */,
+				840257599BBCFC65A1B15DF5DD5A9A2E /* UNIHTTPRequestWithBody.m in Sources */,
+				1E77276323BFDDB90AFF0D17AFF67EC6 /* UNIHTTPResponse.m in Sources */,
+				0E37D94E4C9613CFDBA273F2F45F0CD2 /* UNIHTTPStringResponse.m in Sources */,
+				E261BD8350C595376C3235E451F60D69 /* UNIJsonNode.m in Sources */,
+				010ED19DADA6DECA4B851A1D038FDF81 /* UNIRest.m in Sources */,
+				3F3CBBA151E4AA2931D4592EB875688A /* UNISimpleRequest.m in Sources */,
+				DE0CA5A70907DF9FAC15D424975EEE60 /* UNIUrlConnection.m in Sources */,
+				22DE5496302BCC4B9C4172FBB420219D /* Unirest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADD3CE58BF03CE38B359D7E5C61A421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1810766310A31050F32B7E9B1BD82BB7 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2871E00F07C85B1D8070DEDE5D1A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26020DBB4A3F7C8DE6E8E4D182F60AC0 /* YTPlayerView.m in Sources */,
+				2EE7A03D4CBFE3B05140F27EB1A7ED2D /* youtube-ios-player-helper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250FF203AC7F115CE513A2F31D6E0ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper-Assets";
+			target = 8A1599E2467E3C0FE576A8C4624C54A6 /* youtube-ios-player-helper-Assets */;
+			targetProxy = 1B9A34A45905DF33D718A97F88203D22 /* PBXContainerItemProxy */;
+		};
+		ACBE2D9AE71A9B5CC0BFC0787108E5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Unirest;
+			target = EFAB901AAEE3A5D69521ED60A3C24D3E /* Unirest */;
+			targetProxy = 535DECB5E4570D58701900E70B99B82E /* PBXContainerItemProxy */;
+		};
+		C37069A36FEDEB952336294DD031D7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = 27654F123DF5D97DBCED7A01C0D13382 /* youtube-ios-player-helper */;
+			targetProxy = 5EF4ADBDDF6436C84BFFE477A835D60B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1170B545EE8D9756F543BB57F463CEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB97A859514998832158BAB37599362 /* youtube-ios-player-helper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Assets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		25762FE82555D1648B5D7BADBDDE32AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BD369A2082854C65D8093C54E577A9 /* Unirest-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2B418743EFDF05BE389E2481AE2211CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4305D9531ACE5F0FFC6D26F58BA199FD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		32B874850EEFF1EF3424B8C8636962D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BD369A2082854C65D8093C54E577A9 /* Unirest-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F2A85538AF415B3F3B28D5CAB087180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB97A859514998832158BAB37599362 /* youtube-ios-player-helper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570D3257F33FDBA71077E3890D879EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB97A859514998832158BAB37599362 /* youtube-ios-player-helper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Assets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6707946A7A2369E7A2977D728A7A3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB97A859514998832158BAB37599362 /* youtube-ios-player-helper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4755F330A9927C2E24F52BA56542E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDEFC000DE245CC60D0D3B68BE13425 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37525DC2EDB5B76B684D85899031D13C /* Build configuration list for PBXNativeTarget "Unirest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B874850EEFF1EF3424B8C8636962D3 /* Debug */,
+				25762FE82555D1648B5D7BADBDDE32AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3147E424D787689D3B77B4A9330AA8 /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper-Assets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570D3257F33FDBA71077E3890D879EE0 /* Debug */,
+				1170B545EE8D9756F543BB57F463CEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1231335D4D27ACF8EF2F094B9A9742C /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6707946A7A2369E7A2977D728A7A3A1F /* Debug */,
+				4F2A85538AF415B3F3B28D5CAB087180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B09A50185969852DC3126D85213AE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4755F330A9927C2E24F52BA56542E5C /* Debug */,
+				2B418743EFDF05BE389E2481AE2211CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
